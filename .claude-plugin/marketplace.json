@@ -1,0 +1,32 @@
+{
+  "name": "blueming",
+  "description": "browser-check: let Claude Code look at, click through and diagnose web pages in ego lite, a Chromium browser kept for agents.",
+  "owner": {
+    "name": "Blueming",
+    "url": "https://github.com/comonetso"
+  },
+  "plugins": [
+    {
+      "name": "browser-check",
+      "source": {
+        "source": "git-subdir",
+        "url": "comonetso/claudeStateBar",
+        "path": "skills/browser_check"
+      },
+      "description": "Let Claude look at, click through and diagnose web pages in ego lite, a Chromium browser on your PC kept for agents and signed in to your sites. One command: browser-check look <url> returns the page text, a capture, errors and the requests the page sent. Tested on Windows 11 only.",
+      "author": {
+        "name": "Blueming"
+      },
+      "homepage": "https://github.com/comonetso/claudeStateBar/tree/main/skills/browser_check",
+      "repository": "https://github.com/comonetso/claudeStateBar",
+      "license": "MIT",
+      "keywords": [
+        "browser",
+        "web-diagnostics",
+        "ego-lite",
+        "cdp",
+        "qa"
+      ]
+    }
+  ]
+}
