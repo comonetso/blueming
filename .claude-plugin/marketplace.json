@@ -1,6 +1,6 @@
 {
   "name": "blueming",
-  "description": "Blueming's Claude Code plugins. browser-check: let Claude look at, click through and diagnose web pages in ego lite, a Chromium browser kept for agents.",
+  "description": "Blueming's Claude Code plugins. browser-check: Claude checks web pages in ego lite itself. codex-rescue: a second view from the Codex CLI, fully automatic.",
   "owner": {
     "name": "Blueming",
     "url": "https://github.com/comonetso"
@@ -26,6 +26,26 @@
         "ego-lite",
         "cdp",
         "qa"
+      ]
+    },
+    {
+      "name": "codex-rescue",
+      "source": {
+        "source": "git-subdir",
+        "url": "comonetso/claudeStateBar",
+        "path": "skills/codex_rescue"
+      },
+      "description": "Get a second opinion from the Codex CLI inside Claude Code: consult on a stuck problem, review changed code, let Codex edit, or chat back and forth. Runs fully automatically and reports every file change it measures. Tested on Windows 11 and Linux, not on a real Mac.",
+      "author": {
+        "name": "Blueming"
+      },
+      "homepage": "https://github.com/comonetso/claudeStateBar/blob/main/docs/codex-rescue-guide.md",
+      "repository": "https://github.com/comonetso/claudeStateBar",
+      "license": "MIT",
+      "keywords": [
+        "codex",
+        "second-opinion",
+        "code-review"
       ]
     }
   ]
