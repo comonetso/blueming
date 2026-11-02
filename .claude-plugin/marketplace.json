@@ -1,6 +1,6 @@
 {
   "name": "blueming",
-  "description": "browser-check: let Claude Code look at, click through and diagnose web pages in ego lite, a Chromium browser kept for agents.",
+  "description": "Blueming's Claude Code plugins. browser-check: let Claude look at, click through and diagnose web pages in ego lite, a Chromium browser kept for agents.",
   "owner": {
     "name": "Blueming",
     "url": "https://github.com/comonetso"
