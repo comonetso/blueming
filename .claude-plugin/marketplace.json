@@ -10,7 +10,7 @@
       "name": "browser-check",
       "source": {
         "source": "git-subdir",
-        "url": "comonetso/claudeStateBar",
+        "url": "https://github.com/comonetso/claudeStateBar.git",
         "path": "skills/browser_check"
       },
       "description": "Let Claude look at, click through and diagnose web pages in ego lite, a Chromium browser on your PC kept for agents and signed in to your sites. One command: browser-check look <url> returns the page text, a capture, errors and the requests the page sent. Tested on Windows 11 only.",
@@ -32,7 +32,7 @@
       "name": "codex-rescue",
       "source": {
         "source": "git-subdir",
-        "url": "comonetso/claudeStateBar",
+        "url": "https://github.com/comonetso/claudeStateBar.git",
         "path": "skills/codex_rescue"
       },
       "description": "Get a second opinion from the Codex CLI inside Claude Code: consult on a stuck problem, review changed code, let Codex edit, or chat back and forth. Runs fully automatically and reports every file change it measures. Tested on Windows 11 and Linux, not on a real Mac.",
